@@ -6,12 +6,12 @@ import { Card, CardContent } from "@/components/ui/card"
 import { motion } from "framer-motion"
 
 const services = [
-  { name: "Fußpflege", price: "ab € 49.00", desc: "Podologische Fußpflege - nicht nur im Sommer gesunde, gepflegte Füße" },
+  { name: "Fußpflege", price: "ab € 51.00", desc: "Podologische Fußpflege - nicht nur im Sommer gesunde, gepflegte Füße" },
   { name: "Wimpern Neuset", price: "ab € 155.00", desc: "Für jeden den passenden Augenaufschlag, ob natürlich oder extravagant." },
-  { name: "Maniküre", price: "ab € 27.00", desc: "Entdecke gestylte Nägel & gepflegte Hände mit unserer Maniküre." },
+  { name: "Maniküre", price: "ab € 30.00", desc: "Entdecke gestylte Nägel & gepflegte Hände mit unserer Maniküre." },
   { name: "Wimpern Refill", price: "ab € 55.00", desc: "Lass deine Wimpern wieder auffüllen, für einen gleichmäßigen Look." },
-  { name: "Augenbrauenstyling", price: "ab € 5.00", desc: "Wir helfen dir, deinen Augenbrauen noch mehr Ausdruck zu verleihen." },
-  { name: "Wimpern Lifting", price: "ab € 59.00", desc: "Verleihe deinen Naturwimpern den richtigen Schwung." },
+  { name: "Augenbrauenstyling", price: "ab € 6.00", desc: "Wir helfen dir, deinen Augenbrauen noch mehr Ausdruck zu verleihen." },
+  { name: "Wimpern Lifting", price: "ab € 65.00", desc: "Verleihe deinen Naturwimpern den richtigen Schwung." },
 ]
 
 const banners = [
