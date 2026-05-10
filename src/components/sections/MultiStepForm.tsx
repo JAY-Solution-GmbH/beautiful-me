@@ -151,16 +151,16 @@ export function MultiStepForm() {
               <p className="text-gray-500">(Mehrfachauswahl natürlich möglich)</p>
             </div>
 
-            <div className="space-y-3 mb-10 max-w-md mx-auto">
+            <div className="space-y-1.5 mb-10 max-w-md mx-auto">
               {SERVICES.map(service => (
                 <label 
                   key={service} 
-                  className="flex items-center gap-4 p-4 rounded-xl cursor-pointer hover:bg-gray-50 transition-colors border border-transparent hover:border-gray-100"
+                  className="flex items-center gap-3 p-3 rounded-xl cursor-pointer hover:bg-gray-50 transition-colors border border-transparent hover:border-gray-100"
                 >
-                  <div className={`w-6 h-6 rounded border flex items-center justify-center transition-colors ${formData.services.includes(service) ? 'bg-[#03B19F] border-[#03B19F]' : 'border-gray-300 bg-white'}`}>
-                    {formData.services.includes(service) && <Check className="w-4 h-4 text-white" />}
+                  <div className={`w-5 h-5 rounded border flex items-center justify-center transition-colors ${formData.services.includes(service) ? 'bg-[#03B19F] border-[#03B19F]' : 'border-gray-300 bg-white'}`}>
+                    {formData.services.includes(service) && <Check className="w-3.5 h-3.5 text-white" />}
                   </div>
-                  <span className="text-gray-800 text-lg">{service}</span>
+                  <span className="text-gray-800 text-base">{service}</span>
                   {/* Invisible real checkbox for accessibility */}
                   <input 
                     type="checkbox" 
@@ -196,16 +196,16 @@ export function MultiStepForm() {
               <p className="text-gray-500">(Mehrfachauswahl möglich)</p>
             </div>
 
-            <div className="space-y-3 mb-10 max-w-md mx-auto">
+            <div className="space-y-1.5 mb-10 max-w-md mx-auto">
               {CONTACT_METHODS.map(method => (
                 <label 
                   key={method} 
-                  className="flex items-center gap-4 p-4 rounded-xl cursor-pointer hover:bg-gray-50 transition-colors border border-transparent hover:border-gray-100"
+                  className="flex items-center gap-3 p-3 rounded-xl cursor-pointer hover:bg-gray-50 transition-colors border border-transparent hover:border-gray-100"
                 >
-                  <div className={`w-6 h-6 rounded border flex items-center justify-center transition-colors ${formData.contactMethods.includes(method) ? 'bg-[#03B19F] border-[#03B19F]' : 'border-gray-300 bg-white'}`}>
-                    {formData.contactMethods.includes(method) && <Check className="w-4 h-4 text-white" />}
+                  <div className={`w-5 h-5 rounded border flex items-center justify-center transition-colors ${formData.contactMethods.includes(method) ? 'bg-[#03B19F] border-[#03B19F]' : 'border-gray-300 bg-white'}`}>
+                    {formData.contactMethods.includes(method) && <Check className="w-3.5 h-3.5 text-white" />}
                   </div>
-                  <span className="text-gray-800 text-lg">{method}</span>
+                  <span className="text-gray-800 text-base">{method}</span>
                   <input 
                     type="checkbox" 
                     className="hidden" 
