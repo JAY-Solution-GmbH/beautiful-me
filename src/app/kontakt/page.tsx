@@ -86,42 +86,30 @@ export default function KontaktPage() {
                     </div>
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-4">
-                    <div className="flex items-start gap-4 p-5 bg-white rounded-xl shadow-sm border border-gray-100">
-                      <div className="p-2.5 bg-[#F9F5EE] rounded-full text-[#03B19F] shrink-0">
-                        <MapPin className="w-4 h-4" />
-                      </div>
-                      <div>
-                        <h3 className="font-bold text-gray-900 text-sm mb-1">Standort</h3>
-                        <p className="text-gray-600 text-sm leading-tight">Obermarktstraße 21<br/>6410 Telfs</p>
-                      </div>
+                  <div className="flex items-start gap-5 p-5 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div className="p-3 bg-[#F9F5EE] rounded-full text-[#03B19F] shrink-0">
+                      <MapPin className="w-5 h-5" />
                     </div>
-                    
-                    <div className="flex items-start gap-4 p-5 bg-white rounded-xl shadow-sm border border-gray-100">
-                      <div className="p-2.5 bg-[#F9F5EE] rounded-full text-[#03B19F] shrink-0">
-                        <Car className="w-4 h-4" />
-                      </div>
-                      <div>
-                        <h3 className="font-bold text-gray-900 text-sm mb-1">Parken</h3>
-                        <p className="text-gray-600 text-sm leading-tight">Inntalcenter Telfs<br/><span className="text-gray-500 text-xs">2,5h gratis</span></p>
-                      </div>
+                    <div>
+                      <h3 className="font-bold text-gray-900 text-base mb-1">Standort</h3>
+                      <p className="text-gray-700">Obermarktstraße 21<br/>6410 Telfs</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-5 p-5 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div className="p-3 bg-[#F9F5EE] rounded-full text-[#03B19F] shrink-0">
+                      <Car className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-gray-900 text-base mb-1">Parken</h3>
+                      <p className="text-gray-700">Inntalcenter Telfs<br/><span className="text-gray-500 text-sm">2,5h gratis</span></p>
                     </div>
                   </div>
 
                 </div>
               </div>
 
-              {/* Portrait */}
-              <div className="px-2 pt-4 hidden sm:block">
-                <div className="relative aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-md">
-                  <Image 
-                    src="/images/Portrait-Melanie-Steiner.jpg"
-                    alt="Melanie Steiner"
-                    fill
-                    className="object-cover object-center"
-                  />
-                </div>
-              </div>
+
 
             </motion.div>
           </div>
