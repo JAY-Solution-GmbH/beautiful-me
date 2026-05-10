@@ -3,7 +3,7 @@
 import { Navigation } from "@/components/layout/Navigation"
 import { Footer } from "@/components/layout/Footer"
 import Image from "next/image"
-import { Phone, Mail, MapPin, Car, MessageCircle } from "lucide-react"
+import { Phone, Mail, MapPin, Car, MessageCircle, ArrowRight } from "lucide-react"
 import { motion } from "framer-motion"
 
 export default function KontaktPage() {
@@ -68,8 +68,9 @@ export default function KontaktPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 text-lg mb-1">WhatsApp</h3>
-                  <a href="https://wa.me/4369917149957" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-[#03B19F] transition-colors text-lg">
+                  <a href="https://wa.me/4369917149957" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-[#03B19F] underline underline-offset-4 hover:text-[#028E7F] transition-colors text-lg font-medium group">
                     Chat starten
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </a>
                 </div>
               </div>
