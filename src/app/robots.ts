@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://www.beautiful-me.at/sitemap.xml',
+    sitemap: 'https://www.beautifulme.at/sitemap.xml',
   }
 }

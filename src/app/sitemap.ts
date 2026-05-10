@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.beautiful-me.at' // Placeholder
+  const baseUrl = 'https://www.beautifulme.at'
 
   return [
     {

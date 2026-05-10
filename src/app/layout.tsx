@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Beautiful Me | Kosmetikstudio in Telfs",
     description: "Expertin für Wimpern, Fußpflege & Maniküre in Telfs. Vereinbare jetzt deinen Termin bei Melanie Steiner.",
-    url: "https://www.beautiful-me.at", // TODO: Update with real domain
+    url: "https://www.beautifulme.at",
     siteName: "Beautiful Me",
     locale: "de_AT",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.beautiful-me.at",
+    canonical: "https://www.beautifulme.at",
   }
 };
 
@@ -35,9 +35,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "BeautySalon",
   "name": "Beautiful Me - Melanie Steiner",
-  "image": "https://www.beautiful-me.at/images/Logo-Quer.jpg",
-  "@id": "https://www.beautiful-me.at",
-  "url": "https://www.beautiful-me.at",
+  "image": "https://www.beautifulme.at/images/Logo-Quer.jpg",
+  "@id": "https://www.beautifulme.at",
+  "url": "https://www.beautifulme.at",
   "telephone": "+4369917149957",
   "address": {
     "@type": "PostalAddress",
@@ -61,7 +61,7 @@ const jsonLd = {
     }
   ],
   "sameAs": [
-    "https://www.beautiful-me.at"
+    "https://www.beautifulme.at"
   ]
 };
 
