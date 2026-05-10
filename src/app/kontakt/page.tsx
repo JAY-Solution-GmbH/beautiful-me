@@ -3,7 +3,7 @@
 import { Navigation } from "@/components/layout/Navigation"
 import { Footer } from "@/components/layout/Footer"
 import Image from "next/image"
-import { Phone, Mail, MapPin, Car } from "lucide-react"
+import { Phone, Mail, MapPin, Car, MessageCircle } from "lucide-react"
 import { motion } from "framer-motion"
 
 export default function KontaktPage() {
@@ -55,9 +55,21 @@ export default function KontaktPage() {
                   <Phone className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 text-lg mb-1">Telefon und WhatsApp</h3>
+                  <h3 className="font-bold text-gray-900 text-lg mb-1">Telefon</h3>
                   <a href="tel:+4369917149957" className="text-gray-700 hover:text-[#03B19F] transition-colors text-lg">
                     +43 699 17149957
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-5 p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                <div className="p-3 bg-[#F9F5EE] rounded-full text-[#03B19F] shrink-0">
+                  <MessageCircle className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-gray-900 text-lg mb-1">WhatsApp</h3>
+                  <a href="https://wa.me/4369917149957" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-[#03B19F] transition-colors text-lg">
+                    Chat starten
                   </a>
                 </div>
               </div>
