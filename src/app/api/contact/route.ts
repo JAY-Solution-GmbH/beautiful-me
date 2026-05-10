@@ -18,6 +18,7 @@ export async function POST(req: Request) {
     const { data: resendData, error } = await resend.emails.send({
       from: 'Beautiful Me <beautifulme@jayboost.com>',
       to: 'beautiful.me@gmx.at',
+      cc: 'webdesign@jay-solution.com',
       subject: `Neue Anfrage von ${name}`,
       html: `
         <h2>Neue Kundenanfrage</h2>
